@@ -1,5 +1,5 @@
 {
-    "name": "test/contact",
+    "name": "onekida/contact",
     "description": "send email to user and save data to db",
     "type": "library",
     "license": "MIT",
