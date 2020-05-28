@@ -1,0 +1,31 @@
+{
+    "name": "test/contact",
+    "description": "send email to user and save data to db",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name" : "ONEKIDA Inc",
+            "email": "onekida@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": ">=5.3"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "test\\contact\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "test\\contact\\Provider"
+            ]
+        }
+    }
+}
